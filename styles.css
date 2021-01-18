@@ -1,31 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
 .entire {
-
+    margin-top: 150px;
 }
 
 .main-image {
     background-image: url('images/drawers.jpg');
-    background-size: cover;
+    background-size:100%;
     background-repeat: no-repeat;
-    border: 1px solid purple;
-    width: 40vw;
-    height: 90vh;
+    width: 85vw;
+    height: 80vh;
     margin: auto;
 }
 
 .text {
-
+    font-size: 1rem;
 }
 
 .heading {
-
+    color: hsl(217, 19%, 35%);
+    padding: 35px;
+    box-sizing: border-box;
+    font-family: "Manrope";
+    max-width: 520px;
+    font-weight: 700;
+    margin: auto;
 }
 
 .paragaph{
+    border: 1px solid purple;
 
 }
 
