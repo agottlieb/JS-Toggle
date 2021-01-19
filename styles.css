@@ -29,19 +29,24 @@
 
 .heading {
     color: hsl(217, 19%, 35%);
-    padding: 35px;
+    padding: 40px 25px 5px 25px;
     box-sizing: border-box;
     font-family: "Manrope";
-    max-width: 350px;
+    max-width: 305px;
     font-weight: 700;
     margin: auto;
     font-size: 1rem;
 }
 
-.paragaph1{
-    border: 2px solid purple;
+.paragraph{
+    color: hsl(214, 17%, 51%);
+    box-sizing: border-box;
+    max-width: 305px;
+    padding: 5px 25px;
     font-family: "Manrope";
     font-weight: 500;
+    font-size: .9rem;
+    margin: auto;
 }
 
 .social {
