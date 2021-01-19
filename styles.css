@@ -65,11 +65,19 @@
 }
 
 .social-name {
-
+    font-weight: 700;
 }
 
 .social-date {
+    font-weight: 500;
+}
 
+.share-icon img {
+    
+}
+
+.active-state {
+    visibility: hidden;
 }
 
 @media (min-width:700px) {
