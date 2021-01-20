@@ -46,7 +46,6 @@
 .social {
     display: flex;
     align-items: center;
-    border: 1px darkblue dotted;
     max-width: 270px;
     margin: auto;
     font-size: .8rem;
@@ -83,6 +82,10 @@
     margin-top: -10px;
 }
 
+.attribution {
+    padding: 20px;
+}
+
 .active-state {
     visibility: hidden;
 }
@@ -90,3 +93,4 @@
 @media (min-width:700px) {
 
 }
+
