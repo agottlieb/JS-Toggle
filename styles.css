@@ -12,8 +12,9 @@
     background-image: url('images/drawers.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% 20%;
+    background-position: 0% -140%;
     max-height: 200px;
+    max-width: 270px;
     overflow: hidden;
     width: 85vw;
     height: 80vh;
@@ -66,9 +67,9 @@
     margin-right: 15px;
 }
 
-.social-data {
-    /* margin-right: 90px; */
-}
+/* .social-data {
+    margin-right: 90px;
+} */
 
 .social-name {
     font-size:.75rem;
@@ -88,9 +89,6 @@
 }
 
 .attribution {
-    /* margin-top: 20px;
-    margin-right: 50px;
-    margin-bottom: 20px; */
     font-size: 13px;
     text-align: center;
     padding: 20px;
@@ -100,29 +98,38 @@
 
 .active-state {
     /* visibility: hidden; */
-    border: 2px purple dotted;
-    background-color: hsl(214, 17%, 51%);
-    color: white;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(212, 23%, 69%);
+    font-size: .8rem;
     text-transform: uppercase;
     max-height: 100px;
+    max-width: 270px;
+    margin: auto;
+    align-items: center;
     border-radius: 0 0 5% 5%;
     z-index: 1;
     display: flex;
-    /* display: flex;
     align-items: center;
-    max-width: 270px;
-    margin: auto;
-    max-height: 100px;
- */
+    justify-content: space-around;
 }
 
 .social-icons {
    color:hsl(210, 46%, 95%);
-}
-.share {
-    letter-spacing: .5em;
+   padding: .5rem;
+   flex-direction: row;
 }
 
+.share {
+    letter-spacing: .5em;
+    padding: 20px 5px 20px 25px;
+}
+
+.btn {
+    border-radius: 100%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
 
 @media (min-width:700px) {
 
