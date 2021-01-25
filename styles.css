@@ -46,7 +46,6 @@
 }
 
 
-
 .social-nonactive {
     visibility: hidden;
     display: flex;
@@ -88,6 +87,16 @@
     margin-top: -10px;
 }
 
+.attribution {
+    /* margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px; */
+    font-size: 13px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+} 
+
 
 .active-state {
     /* visibility: hidden; */
@@ -114,16 +123,6 @@
     letter-spacing: .5em;
 }
 
-/* .attribution {
-    margin-top: 20px;
-    margin-right: 50px;
-    margin-bottom: 20px;
-    padding: 20px;
-    color: black;
-    border: 3px blue solid;
-    display: inline-block;
-
-}  */
 
 @media (min-width:700px) {
 
