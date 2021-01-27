@@ -55,7 +55,7 @@
 
 
 .social-nonactive {
-    visibility: hidden;
+    /* visibility: hidden; */
     display: flex;
     align-items: center;
     max-height: 100px;
@@ -65,8 +65,7 @@
     font-family: "Manrope";
     color: hsl(217, 19%, 35%);
     padding: 12px;
-    position: fixed;
-    left: 30%;
+    position: static;
 }
 
 .social-image img {
@@ -98,7 +97,7 @@
 
 
 .active-state {
-    /* visibility: hidden; */
+    visibility: hidden;
     display: flex;
     align-items: center;
     max-height: 100px;
@@ -110,7 +109,13 @@
     color: var(--Grayish-Blue);
     text-transform: uppercase;
     border-radius: 0 0 5% 5%;
-    z-index: 1;
+    z-index: 100;
+}
+
+.active-state .visible {
+    display: block;
+    animation: fade-slide-in 0.3s ease-out forwards;
+    /* transform */
 }
 
 .icons-alone {
