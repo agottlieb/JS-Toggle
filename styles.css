@@ -55,15 +55,15 @@
 
 
 .social-nonactive {
-    visibility: hidden;
+    /* visibility: hidden; */
     display: flex;
     align-items: center;
-    max-width: 270px;
+    max-height: 100px;
+    max-width: 330px;
     margin: auto;
     font-size: .8rem;
     font-family: "Manrope";
     color: hsl(217, 19%, 35%);
-    max-height: 100px;
     padding: 12px;
 }
 
@@ -74,25 +74,16 @@
     margin-right: 15px;
 }
 
-/* .social-data {
-    margin-right: 90px;
-} */
-
 .social-name {
     font-size:.75rem;
     font-weight: 700;
+    margin-right: 105px;
 }
 
 .social-date {
     font-size:.65rem;
     font-weight: 500;
     color:hsl(212, 23%, 69%);
-}
-
-.share-icon img {
-    margin-left: 80px;
-    position: absolute;
-    margin-top: -10px;
 }
 
 .attribution {
@@ -105,19 +96,18 @@
 
 .active-state {
     /* visibility: hidden; */
-    background-color: var(--Very-Dark-Grayish-Blue);
-    color: var(--Grayish-Blue);
-    font-size: .8rem;
-    text-transform: uppercase;
+    display: flex;
+    align-items: center;
     max-height: 100px;
     max-width: 330px;
     margin: auto;
-    align-items: center;
+    font-size: .8rem;
+    justify-content: space-around;
+    background-color: var(--Very-Dark-Grayish-Blue);
+    color: var(--Grayish-Blue);
+    text-transform: uppercase; 
     border-radius: 0 0 5% 5%;
     z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .icons-alone {
@@ -136,7 +126,8 @@
 
 .social-icons {
    color:hsl(210, 46%, 95%);
-   flex-direction: row; }
+   flex-direction: row; 
+    }
 
 .share {
     letter-spacing: .5em;
@@ -150,10 +141,16 @@
     border: none;
     outline: none;
     padding: 4px;
-    z-index: 1;
-    background-color: hsl(212, 23%, 69%);
+    z-index: 4;
+    border: 1px green solid;
+}
+
+.active-state .btn {
     margin-right: 25px;
 }
+.btn:hover {
+    background-color: var(--Grayish-Blue);
+  }
 
 @media (min-width:700px) {
 
