@@ -48,6 +48,7 @@
     font-weight: 500;
     font-size: .81rem;
     margin: auto;
+    margin-bottom: 40px;
     line-height: 1.5rem;
 }
 
@@ -58,6 +59,9 @@
 
 .social-nonactive, .active-state {
     position: absolute;
+    height: 60px;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
     
 }
 .social-nonactive {
@@ -67,9 +71,9 @@
     max-height: 100px;
     max-width: 330px;
     margin: auto;
-    font-size: .8rem;
+    font-size: 1.2rem;
     color: hsl(217, 19%, 35%);
-    padding: 3px;
+    padding: .2px;
     /* position: static; */
 }
 
@@ -81,10 +85,14 @@
     margin-left: 20px;
 }
 
+.social-data {
+    margin-right: 20px;
+}
+
 .social-name {
-    font-size:.75rem;
+    font-size: .8rem;
     font-weight: 700;
-    margin-right: 90px;
+    margin-right: 70px;
 }
 
 .social-date {
@@ -112,7 +120,7 @@
     background-color: var(--Very-Dark-Grayish-Blue);
     color: var(--Grayish-Blue);
     text-transform: uppercase;
-    border-radius: 0 0 5% 5%;
+    border-radius: 0 0 10px 10px;
     z-index: 2;
     opacity: 0;
 }
@@ -157,14 +165,12 @@
 }
 
 .active-state .btn {
-    margin-right: 25px;
+    visibility: hidden;
 }
 
-.social-nonactive .btn {
+/* .social-nonactive .btn {
     border: 2px pink solid;
-    margin-right: 24px;
-    margin-bottom: 9.5px;
-}
+} */
 
 .btn:hover {
     background-color: var(--Grayish-Blue);
