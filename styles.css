@@ -34,7 +34,6 @@
     color: hsl(217, 19%, 35%);
     padding: 40px 25px 5px 25px;
     box-sizing: border-box;
-    font-family: "Manrope";
     max-width: 305px;
     font-weight: 700;
     margin: auto;
@@ -46,7 +45,6 @@
     box-sizing: border-box;
     max-width: 305px;
     padding: 5px 25px;
-    font-family: "Manrope";
     font-weight: 500;
     font-size: .81rem;
     margin: auto;
@@ -54,6 +52,14 @@
 }
 
 
+.below-area {
+    position: relative;
+}
+
+.social-nonactive, .active-state {
+    position: absolute;
+    
+}
 .social-nonactive {
     /* visibility: hidden; */
     display: flex;
@@ -62,10 +68,9 @@
     max-width: 330px;
     margin: auto;
     font-size: .8rem;
-    font-family: "Manrope";
     color: hsl(217, 19%, 35%);
-    padding: 12px;
-    position: static;
+    padding: 3px;
+    /* position: static; */
 }
 
 .social-image img {
@@ -95,7 +100,6 @@
     color: black;
 }
 
-
 .active-state {
     /* visibility: hidden; */
     display: flex;
@@ -109,13 +113,13 @@
     color: var(--Grayish-Blue);
     text-transform: uppercase;
     border-radius: 0 0 5% 5%;
-    z-index: 100;
+    z-index: 2;
     opacity: 0;
 }
 
 .active-state.visible {
     opacity: 1;
-    animation: fade-slide-in 0.3s ease-out forwards;
+    transition: opacity 1000ms ease-out;
 }
 
 .icons-alone {
@@ -155,6 +159,13 @@
 .active-state .btn {
     margin-right: 25px;
 }
+
+.social-nonactive .btn {
+    border: 2px pink solid;
+    margin-right: 24px;
+    margin-bottom: 9.5px;
+}
+
 .btn:hover {
     background-color: var(--Grayish-Blue);
   }
