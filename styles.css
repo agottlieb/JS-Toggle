@@ -172,7 +172,29 @@ footer {
     color: black;
 }
 
-@media (min-width:700px) {
+@media (min-width:720px) {
 
+    .wrapper {
+        border: 2px solid green;
+        display: flex;
+    }
+
+    .main-image {
+        border: 2px solid yellow;
+    }
+
+    .text {
+        border: 2px solid turquoise;
+    }
+
+    .below-area {
+        border: 2px solid purple;
+        min-height: 70px;
+        min-width: 50px;
+    }
+
+    footer {
+        border: 2px solid black;
+    }
 }
 
