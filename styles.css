@@ -176,6 +176,7 @@ footer {
 
     .wrapper {
         display: flex;
+        border: 1px solid green;
     }
 
     .main-image {
@@ -199,11 +200,19 @@ footer {
     }
 
     .below-area {
-        /* display: flex;
-        flex-direction: row; */
-        border: 2px solid purple;
-        min-height: 70px;
-        min-width: 50px;
+        /* height: 90px;
+        width: 70px; */
+        right: 54%;
+        top: 140px;
+    }
+
+    .social-data {
+        margin-right: 130px;
+    }
+
+    .social-name {
+        font-size: .8rem;
+        font-weight: 700;
     }
 /* 
     footer {
