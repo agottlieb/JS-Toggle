@@ -175,26 +175,39 @@ footer {
 @media (min-width:720px) {
 
     .wrapper {
-        border: 2px solid green;
         display: flex;
     }
 
     .main-image {
-        border: 2px solid yellow;
+        max-width: 380px;
+        max-height: 300px;
+        border-radius: 5% 0% 0% 5%;
     }
 
     .text {
-        border: 2px solid turquoise;
+        padding-top: 100px;
+        padding-right: 160px;
+    }
+
+    .heading {
+        font-size: 1.2rem;
+        max-width: 400px;
+    }
+
+    .paragraph {
+        max-width: 400px;
     }
 
     .below-area {
+        /* display: flex;
+        flex-direction: row; */
         border: 2px solid purple;
         min-height: 70px;
         min-width: 50px;
     }
-
+/* 
     footer {
-        border: 2px solid black;
-    }
+
+    } */
 }
 
