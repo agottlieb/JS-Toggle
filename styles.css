@@ -202,21 +202,21 @@ footer {
     .below-area {
         /* height: 90px;
         width: 70px; */
-        right: 54%;
+        right: 56%;
         top: 140px;
     }
 
     .social-data {
-        margin-right: 130px;
+        margin-right: 65px;
     }
 
-    .social-name {
+    .social-name { 
         font-size: .8rem;
         font-weight: 700;
+        width: 140px;
+        overflow: hidden;
+        white-space: nowrap;
     }
-/* 
-    footer {
 
-    } */
 }
 
