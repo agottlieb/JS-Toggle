@@ -176,7 +176,6 @@ footer {
 
     .wrapper {
         display: flex;
-        border: 1px solid green;
     }
 
     .main-image {
@@ -200,8 +199,6 @@ footer {
     }
 
     .below-area {
-        /* height: 90px;
-        width: 70px; */
         right: 56%;
         top: 140px;
     }
@@ -216,6 +213,15 @@ footer {
         width: 140px;
         overflow: hidden;
         white-space: nowrap;
+    }
+
+    .active-state{
+        height: 60px;
+        width: 250px;
+        border-radius: 10px;
+        padding-left: 70px;
+        bottom: 37%; 
+        left: 257px;
     }
 
 }
