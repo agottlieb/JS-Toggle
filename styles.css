@@ -153,11 +153,11 @@
     z-index: 4;
 }
 
-.active-state .btn {
+/* .active-state .btn {
     visibility: hidden; 
- } 
+ }  */
 
-.btn:hover {
+.btn::hover {
     background-color: var(--Grayish-Blue);
   }
 
@@ -220,7 +220,7 @@ footer {
         width: 250px;
         border-radius: 10px;
         /* padding-left: 70px; */
-        padding-right: 90px;
+        padding-right: 125px;
         bottom: 37%; 
         left: 257px;
     }
@@ -231,7 +231,7 @@ footer {
         border-right: 12px solid transparent;
         border-top: 12px solid var(--Very-Dark-Grayish-Blue);
        margin-bottom: -70px;
-       margin-left: -175px;
+       margin-left: -170px;
     }
 
 }
