@@ -154,8 +154,8 @@
 }
 
 .active-state .btn {
-    visibility: hidden;
-}
+    visibility: hidden; 
+ } 
 
 .btn:hover {
     background-color: var(--Grayish-Blue);
@@ -224,5 +224,13 @@ footer {
         left: 257px;
     }
 
+    .arrow-down {
+        width: 10;
+        height: 10;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-top: 12px solid var(--Very-Dark-Grayish-Blue);
+        bottom: 55%;
+    }
 }
 
