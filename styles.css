@@ -219,18 +219,20 @@ footer {
         height: 60px;
         width: 250px;
         border-radius: 10px;
-        padding-left: 70px;
+        /* padding-left: 70px; */
+        padding-right: 90px;
         bottom: 37%; 
         left: 257px;
     }
 
+
     .arrow-down {
-        width: 10;
-        height: 10;
         border-left: 12px solid transparent;
         border-right: 12px solid transparent;
         border-top: 12px solid var(--Very-Dark-Grayish-Blue);
-        bottom: 55%;
+       margin-bottom: -70px;
+       margin-left: -175px;
     }
+
 }
 
