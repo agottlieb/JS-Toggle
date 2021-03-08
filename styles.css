@@ -57,14 +57,7 @@
 }
 
 .social-nonactive, .active-state {
-    /* position: absolute;
-    margin: auto; */
     height: 60px;
-    
-    /* top: 0; left: 0; bottom: 0; right: 0; */
-    /* position: fixed;
-    top: 50%;
-    left: 50%; */
     align-items: center;
     
 }
@@ -200,24 +193,6 @@ footer {
         max-width: 400px;
     }
 
-    /* .below-area {
-        right: 56%;
-        top: 140px;
-    }
-
-    .social-data {
-        margin-right: 65px;
-    } */
-
-    /* .social-nonactive, .active-state {
-        position: absolute;
-        height: 60px;
-        margin: auto;
-        top: 0; left: 0; bottom: 0; 
-        /* right: 0; */
-        
-    
-
     .social-nonactive, .active-state {
         position: absolute;
     }
@@ -233,8 +208,6 @@ footer {
     .active-state{
         height: 60px;
         width: 250px;
-        border-radius: 10px;
-        /* padding-left: 70px; */
         padding-right: 125px;
         bottom: 37%; 
         left: 257px;
