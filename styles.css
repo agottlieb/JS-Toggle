@@ -57,10 +57,15 @@
 }
 
 .social-nonactive, .active-state {
-    position: absolute;
+    /* position: absolute;
+    margin: auto; */
     height: 60px;
-    margin: auto;
-    top: 0; left: 0; bottom: 0; right: 0;
+    
+    /* top: 0; left: 0; bottom: 0; right: 0; */
+    /* position: fixed;
+    top: 50%;
+    left: 50%; */
+    align-items: center;
     
 }
 .social-nonactive {
@@ -195,13 +200,26 @@ footer {
         max-width: 400px;
     }
 
-    .below-area {
+    /* .below-area {
         right: 56%;
         top: 140px;
     }
 
     .social-data {
         margin-right: 65px;
+    } */
+
+    /* .social-nonactive, .active-state {
+        position: absolute;
+        height: 60px;
+        margin: auto;
+        top: 0; left: 0; bottom: 0; 
+        /* right: 0; */
+        
+    
+
+    .social-nonactive, .active-state {
+        position: absolute;
     }
 
     .social-name { 
