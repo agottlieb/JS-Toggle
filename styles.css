@@ -48,7 +48,7 @@
     font-weight: 500;
     font-size: .81rem;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     line-height: 1.5rem;
 }
 
@@ -110,6 +110,10 @@
     border-radius: 0 0 10px 10px;
     z-index: 2;
     opacity: 0;
+    position: absolute;
+    left: 2.5rem;
+    right: 2rem;
+    bottom: .1rem;
 }
 
 .active-state.visible {
@@ -207,12 +211,12 @@ footer {
 
     .active-state{
         height: 60px;
-        width: 250px;
+        width: 220px;
         padding-right: 125px;
-        bottom: 37%; 
-        left: 257px;
+        bottom: 45%; 
+        left: 140px;
+        border-radius: 10px;
     }
-
 
     .arrow-down {
         border-left: 12px solid transparent;
