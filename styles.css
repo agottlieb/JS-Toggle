@@ -44,7 +44,7 @@
     color: hsl(214, 17%, 51%);
     box-sizing: border-box;
     max-width: 305px;
-    padding: 5px 25px;
+    padding: 1px 25px;
     font-weight: 500;
     font-size: .81rem;
     margin: auto;
@@ -213,7 +213,7 @@ footer {
         height: 65px;
         width: 250px;
         padding-right: 110px;
-        bottom: 1.6rem; 
+        bottom: 1rem; 
         /* left: 3.4rem; */
         right: -8rem;
         border-radius: 10px;
