@@ -159,6 +159,9 @@
     background-color: var(--Grayish-Blue);
   }
 
+.btn.visible {
+    color: var(--Very-Dark-Grayish-Blue)
+}
 
 footer {
     position: static;
