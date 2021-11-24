@@ -178,6 +178,7 @@ footer {
 
     .wrapper {
         display: flex;
+        padding-top: 7rem;
     }
 
     .main-image {
@@ -232,6 +233,10 @@ footer {
 
     .btn {
         margin-left: 2.8rem;
+    }
+
+    footer {
+        padding-top: 6rem;
     }
 
 }
